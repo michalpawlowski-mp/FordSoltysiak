@@ -8,8 +8,8 @@ import WhyUs from "./components/WhyUs";
 function App() {
   return (
     <>
-      <section class="hero">
-        <div class="grid-lines"></div>
+      <section className="hero">
+        <div className="grid-lines"></div>
         <Nav />
         <Hero />
       </section>
