@@ -6,11 +6,7 @@ function Contact() {
   return (
     <section className="contact-section" id="kontakt">
       <p className="section-label fade">Znajdź nas</p>
-      <h2 className="fade">
-        KONTAKT
-        <br />I LOKALIZACJA
-      </h2>
-
+      <h2 className="fade">KONTAKT I LOKALIZACJA</h2>
       <div className="contact-grid">
         <div>
           <ContactInfo />
