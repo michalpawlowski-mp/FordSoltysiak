@@ -12,6 +12,6 @@ export const stripItems = [
   {
     icon: "⏰",
     title: "Pon – Pt: 9:00–17:00",
-    subtitle: "Sob: nieczynne",
+    subtitle: "Sob - Nd: nieczynne",
   },
 ];

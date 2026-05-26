@@ -1,0 +1,68 @@
+#services {
+  padding: 100px 48px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 2px;
+}
+
+.service-card {
+  background: var(--card);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 36px 32px;
+  position: relative;
+  overflow: hidden;
+  transition:
+    border-color 0.3s,
+    transform 0.3s;
+}
+
+.service-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 61, 165, 0.12) 0%,
+    transparent 60%
+  );
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.service-card:hover {
+  border-color: rgba(0, 100, 255, 0.4);
+  transform: translateY(-3px);
+}
+
+.service-card:hover::before {
+  opacity: 1;
+}
+
+.service-icon {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.service-card h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 22px;
+  letter-spacing: 0.06em;
+  color: var(--white);
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 13px;
+  color: var(--silver);
+  line-height: 1.7;
+  font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  #services {
+    padding: 60px 24px;
+  }
+}
