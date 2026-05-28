@@ -1,8 +1,11 @@
 import { reasons } from "../data/reasons.data";
+import { useFadeIn } from "../hooks/useFadeIn";
 
 function WhyUs() {
+  const ref = useFadeIn();
+
   return (
-    <section className="why-section" id="whyUs">
+    <section className="why-section" id="whyUs" ref={ref}>
       <p className="section-label fade">Dlaczego warto</p>
       <h2 className="fade">NASZE ATUTY</h2>
       <div className="why-grid">

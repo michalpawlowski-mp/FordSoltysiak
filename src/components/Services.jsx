@@ -1,8 +1,10 @@
 import { services } from "../data/services.data";
+import { useFadeIn } from "../hooks/useFadeIn";
 
 function Services() {
+  const ref = useFadeIn();
   return (
-    <section id="services">
+    <section id="services" ref={ref}>
       <p className="section-label fade">Co robimy</p>
       <h2 className="fade">ZAKRES USŁUG</h2>
       <div className="services-grid">

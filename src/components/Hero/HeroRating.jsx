@@ -7,8 +7,8 @@ function HeroRating() {
         4<span>.</span>9
       </div>
       <div className="stars">
-        {[...Array(5)].map(() => (
-          <img src={star} alt="star" />
+        {[...Array(5)].map((_, i) => (
+          <img key={i} src={star} alt="star" />
         ))}
       </div>
       <div className="rating-label">Ocena klientów</div>
