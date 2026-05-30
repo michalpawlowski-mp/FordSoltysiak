@@ -14,7 +14,7 @@ function ContactMap() {
       <a
         href="https://maps.google.com/?q=Ford+Sołtysiak+Bydgoszcz+Bocheńskiego+17"
         target="_blank"
-        rel="noopener"
+        rel="noopener noreferrer"
         className="btn-primary btn-map"
       >
         📍 Otwórz w Mapach Google

@@ -9,15 +9,13 @@ export const contactItems = [
     id: "phone",
     icon: "📞",
     label: "Telefon",
-    lines: [{ text: "+48 506 042 317", href: "tel:+48506042317" }],
+    lines: [{ text: "+48", href: "tel:+48" }],
   },
   {
     id: "email",
     icon: "✉️",
     label: "E-mail",
-    lines: [
-      { text: "madziulek_30@poczta.onet.pl", href: "mailto:madziulek_30@poczta.onet.pl" },
-    ],
+    lines: [{ text: "", href: "mailto:" }],
   },
   {
     id: "company",
