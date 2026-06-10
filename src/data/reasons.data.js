@@ -1,9 +1,9 @@
 export const reasons = [
   {
-    num: "10+",
-    title: "Lat doświadczenia z marką Ford",
+    num: "20+",
+    title: "20+ Lat doświadczenia z marką Ford",
     description:
-      "Od 2014 roku specjalizujemy się wyłącznie w samochodach Ford. Znamy te auta od podszewki – każdy model, każda generacja silnika.",
+      "Specjalizujemy się wyłącznie w samochodach Ford. Znamy te auta od podszewki – każdy model, każda generacja silnika.",
   },
   {
     num: "1",
@@ -21,6 +21,6 @@ export const reasons = [
     num: "4.9",
     title: "Ocena klientów na Yanosik",
     description:
-      '42 opinie i ocena 4,9/5 mówią same za siebie. Nagrodzeni tytułem „Wybór Użytkowników 2022" za najwyższą jakość obsługi.',
+      'Ocena 4,9/5 mówią same za siebie. Nagrodzeni tytułem „Wybór Użytkowników 2022" za najwyższą jakość obsługi.',
   },
 ];

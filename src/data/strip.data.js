@@ -2,7 +2,7 @@ export const stripItems = [
   {
     icon: "📍",
     title: "Bydgoszcz",
-    subtitle: "ul. Bocheńskiego 17-19, 85-151",
+    subtitle: "ul. Bocheńskiego 17, 85-151",
   },
   {
     icon: "📞",

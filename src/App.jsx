@@ -16,9 +16,11 @@ function App() {
         <Nav />
         <Hero />
       </section>
-      <Services />
-      <WhyUs />
-      <Contact />
+      <main>
+        <Services />
+        <WhyUs />
+        <Contact />
+      </main>
       <Footer />
     </>
   );
