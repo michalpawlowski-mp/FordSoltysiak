@@ -4,11 +4,11 @@ export const stripItems = [
     title: "Bydgoszcz",
     subtitle: "ul. Bocheńskiego 17, 85-151",
   },
-  {
-    icon: "📞",
-    title: "",
-    subtitle: "Zadzwoń i umów wizytę",
-  },
+  // {
+  //   icon: "📞",
+  //   title: "",
+  //   subtitle: "Zadzwoń i umów wizytę",
+  // },
   {
     icon: "⏰",
     title: "Pon – Pt: 9:00–17:00",
