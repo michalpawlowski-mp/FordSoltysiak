@@ -7,6 +7,9 @@
   --mid: #1a1a1a;
   --card: #111111;
   --white: #f5f5f5;
+  --sb-track-color: #232e33;
+  --sb-thumb-color: #003da5;
+  --sb-size: 8px;
 }
 
 *,
@@ -26,6 +29,21 @@ body {
   background: var(--dark);
   color: var(--white);
   overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 10px;
+  border: 1px solid #232e33;
 }
 
 .block {
@@ -96,4 +114,10 @@ h2 {
 .btn-primary:hover {
   background: var(--blue-light);
   transform: translateY(-2px);
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
 }
